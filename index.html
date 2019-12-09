@@ -23,7 +23,8 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-
+    <!-- <link rel="stylesheet" href="css/filter.css"> -->
+    <link rel="stylesheet" href="css/filter1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
@@ -42,7 +43,7 @@
               <nav class="navbar navbar-expand-lg navbar-light fixed">
           <div class="container box_1620">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <!-- <a class="navbar-brand logo_h" href="index.html"><h3>Harshitha</h3></a> -->
+            <a class="navbar-brand logo_h" href="index.html"><h3>Harshitha</h3></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -56,7 +57,7 @@
                 <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li> 
                 <li class="nav-item"><a class="nav-link" href="index.html#experience">Experience</a></li> 
                 <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li> 
-                <li class="nav-item"><a class="nav-link" href="resume/Harshitha_KV.pdf" target="_blank">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="resume/Harshitha_KV_2019_updated.pdf" target="_blank">Resume</a></li>
               </ul>
             </div> 
           </div>
@@ -229,26 +230,6 @@ Currently, I'm looking for a Mobile Application Developer (Android) role that wo
                 <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
-            <!-- <div class="progress-wrap mb-4">
-              <div class="d-flex">
-                <span>Kotlin</span>
-                <span class="ml-auto">93%</span>
-              </div>
-              <div class="progress rounded-0" style="height: 7px;">
-                <div class="progress-bar" role="progressbar" style="width: 93%;" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div> -->
-<!-- 
-            <div class="progress-wrap mb-4">
-              <div class="d-flex">
-                <span>SQLite</span>
-                <span class="ml-auto">83%</span>
-              </div>
-              <div class="progress rounded-0" style="height: 7px;">
-                <div class="progress-bar" role="progressbar" style="width: 83%;" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -338,167 +319,173 @@ Currently, I'm looking for a Mobile Application Developer (Android) role that wo
  <!--================Projects Area =================-->
     <div class="site-section bg-white" id="projects">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-7 mx-auto text-center">
-            <h2 class="heading-29190">Projects</h2>
-          </div>
+
+
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="android"> Android Application</button>
+            <button class="btn btn-default filter-button" data-filter="web">Web Application</button>
+            <button class="btn btn-default filter-button" data-filter="programming">Programming</button>
+        
         </div>
+        <br>
 
         <div class="row">
 
-
-          <!-- 1 -->
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="post-entry-1 h-100">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <div class="content">
                   <a href="https://github.com/harshkv/Search-Movies-API">
                     <img src="images/movies.jpg" alt="Image"
-                     class="img-fluid">
-                  </a>
-                  <div class="post-entry-1-contents">
-                    
-                    <h2><a href="https://github.com/harshkv/Search-Movies-API">Search Movies Application</a></h2>
-                    <span class="meta d-inline-block mb-3">Sept 2019  
-                      <!-- <span class="mx-2">by</span> <a href="#">"Admin"</a> -->
-                  
-                  </span>
-                    <p>
-
-                        Developed a Movie Search Application using the Movie Database API. You can search for any movie and display the search results. Users can view the details of the selected movie. Performed JSON parsing to retrieve the movies, ListViews, or dynamic layout to display the list, different activities to show your favorite movies, to display the movie details. The Application consists of three screens: Main screen, Favorite Movies screen, and Movie Details screen.
-
-                    </p>
-                  </div>
+                     class="img-fluid"> </a>
+                     <h5><a href="https://github.com/harshkv/Search-Movies-API">Search Movies Application</a></h5>
+                    <span class="meta d-inline-block mb-3">Sept 2019 </span>
+                     <p>
+                      Developed a Movie Search Application using the Movie Database API. You can search for any movie 
+                      and display the search results. Users can view the details of the selected movie. Performed JSON
+                       parsing to retrieve the movies, ListViews, or dynamic layout to display the list, different 
+                       activities to show your favorite movies, to display the movie details. The Application consists 
+                       of three screens: Main screen, Favorite Movies screen, and Movie Details screen.
+                  </p>
                 </div>
               </div>
 
-<!-- 2 -->
 
-          <div class="col-lg-4 col-md-6 mb-4">
-              <div class="post-entry-1 h-100">
-                  <a href="https://github.com/harshkv/Fragment_ProfileBuilder">
-                      <img src="images/profile_build.png" alt="Image"
-                       class="img-fluid" style="height: 350px;" >
-                    </a>
-                <div class="post-entry-1-contents">
-                  
-                  <h2><a href="https://github.com/harshkv/Fragment_ProfileBuilder">Profile Builder Application</a></h2>
-                  <span class="meta d-inline-block mb-3">Sept 2019
-                     <!-- <span class="mx-2">by</span> <a href="#">Admin</a> -->
-                    </span>
-                  <p>Built an Android Application using a single Main Activity and multiple fragments. The Fragments communicate between other Fragments and Activity.Information is saved using SharedPreferences using GSON Library.
-
-                      The application enables a new student to enter and edit their information, and save it using shared preferences making use of three fragments namely: My Profile (main screen), Select Avatar, and Display My Profile.
-                      
-                      When the app starts, check if there is any profile already saved in SharedPreferences. If there is already a profile saved in the SharedPreferences, load the saved profile and Display My Profile Screen. Else, load My Profile Screen.</p>
-                </div>
+              <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+              <div class="content">
+                <a href="https://github.com/harshkv/Fragment_ProfileBuilder">
+                  <img src="images/profile_build.png" alt="Image" 
+                   class="img-fluid" >
+                </a>
+                <h5><a href="https://github.com/harshkv/Fragment_ProfileBuilder">
+                  Profile Builder Application</a></h5>
+                <span class="meta d-inline-block mb-3">Sept 2019
+                   <p>
+                      Built an Android Application using a single Main Activity and multiple fragments. The Fragments
+                      communicate between other Fragments and Activity.Information is saved using SharedPreferences using
+                       GSON Library. The application enables a new student to enter and edit their information, and save 
+                  it using shared preferences making use of three fragments namely: My Profile (main screen),
+                   Select Avatar, and Display My Profile.
+                       When the app starts, check if there is any profile already saved in SharedPreferences. 
+                       If there is already a profile saved in the SharedPreferences, load the saved profile and Display
+                        My Profile Screen. Else, load My Profile Screen.
+                </p>
               </div>
             </div>
 
-<!-- 3 -->
 
 
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="post-entry-1 h-100">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
+              <div class="content">
                   <a href="https://github.com/harshkv/Urban-Trajectory">
                     <img src="images/urban_trajectory.png" alt="Image"
                      class="img-fluid"  >
                   </a>
-                  <div class="post-entry-1-contents">
-                    
-                    <h2><a href="https://github.com/harshkv/Urban-Trajectory">Urban Trajectory</a></h2>
-                    <span class="meta d-inline-block mb-3">Sept 2019 
-                      <!-- <span class="mx-2">by</span> <a href="#">Admin</a> -->
-                    </span>
-                    <p>This project is built on a prototype of a Visual analytics system for urban trajectory datasets that support data exploration and analytical reasoning with interactive visual interfaces. It allows users to interactively visualize and analyse the massive taxi trajectories over urban spaces. 
-                        </p>
+                  <h5><a href="https://github.com/harshkv/Urban-Trajectory">Urban Trajectory</a></h5>
+                  <span class="meta d-inline-block mb-3">Sept 2019 
+                <p>
+                    This project is built on a prototype of a Visual analytics system for urban trajectory datasets
+                    that support data exploration and analytical reasoning with interactive visual interfaces. It allows
+                     users to interactively visualize and analyse the massive taxi trajectories over urban spaces. 
+                </p>
+              </div>
+            </div>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                    <div class="content">
+                        <a href="https://github.com/harshkv/WeatherApplication">
+                          <img src="images/weather.png" alt="Image"
+                           class="img-fluid">
+                        </a>
+                        <h5><a href="https://github.com/harshkv/WeatherApplication">Weather Forecast Application</a></h5>
+                        <span class="meta d-inline-block mb-3">August 2019 
+                         
+                        </span>
+                      <p>Development an Weather Forecast Application in Android using Java-8. The user can select 
+                          any city in the list and view the current as well as the future forcast. All information is
+                           retrieved using RESTful API calls in an Async Task, ListView, Recycler View, CardViews. Images
+                            are loaded using Picasso.Performed JSON parsing on retrieved data.</p>
+                    </div>
                   </div>
+  
+  
+
+                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <div class="content">
+                    <a href="https://github.com/harshkv/NewsApp">
+                      <img src="images/news.jpg" alt="Image"
+                       class="img-fluid" style="height: 350px;" >
+                    </a>
+                   
+                    <h5><a href="https://github.com/harshkv/NewsApp">News Application </a></h5>
+                    <span class="meta d-inline-block mb-3">August 2019   </span>
+                  <p>
+                      The app will enable the user to select the news channels and will display the list of news for the 
+                      selected news source. The users can select the news of interest and the article will be displayed in a 
+                      new WebView. All information is retrieved using RESTful API calls, and Custom Adapter View, Recycler View,
+                       CardViews. Images are loaded using Picasso.
+                    This Application is built using Android Studio and Java.
+                  </p>
+                </div>
+              </div>
+            
+
+
+              <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
+                  <div class="content">
+                      <a href="http://harshithakv.com/Plant-A-Tree-NodeJs-MongoDB/">
+                        <img src="images/bonsai.jpg" alt="Image"
+                         class="img-fluid">
+                      </a>
+                      <h5><a href="http://harshithakv.com/Plant-A-Tree-NodeJs-MongoDB/">Plant A Tree</a></h5>
+                      <span class="meta d-inline-block mb-3">May 2019 
+                      </span>
+                    <p>
+                        Developed a fully dynamic content sharing web application, using Node.js, Express.js, JavaScript,
+                        and MongoDB. 'Plant a Tree' meets the MVC design pattern with EJS template pages for the presentation, 
+                        routes for the controller and JavaScript data objects for the business logic. The Project also handles 
+                        each user Session, Login, Logout, Authentication, handling POST/GET requests, Handling Input Validation 
+                        and Object-Oriented Concepts. The logged-in users have the facility of adding, saving, editing, removing 
+                        and rating bonsai plant details, with the logged activity saved in Mongoose when user logout.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter programming">
+                <div class="content">
+                    <a href="https://github.com/harshkv/8_Puzzle_Problem">
+                      <img src="images/8puzzle1.gif" alt="Image" 
+                       class="img-fluid">
+                    </a>
+                    <h5><a href="https://github.com/harshkv/8_Puzzle_Problem">8 Puzzle Problem - AI</a></h5>
+                    <span class="meta d-inline-block mb-3">Sept 2018 
+                    </span>
+                  <p>
+                      The plan is designed to solve an 8-puzzle using an A *search algorithm. A * is a recursive algorithm 
+                      that is called up until an answer is found. Considering two heuristic features, misplaced heuristic and
+                       manhattan heuristic.By combining the start state and the goal state, the program utilizes the two
+                        approaches to discover the finest solution route to achieve the goal state. Also with the number of
+                         nodes produced and expanded to achieve the goal state.
+                  </p>
                 </div>
               </div>
           </div>
-          
 
-
-
-
-          <!-- SECOND ROW OF PROJECTS  -->
-
-
-          <div class="row">
-
-<!-- 4 -->
-
-
-              <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="post-entry-1 h-100">
-                    <a href="https://github.com/harshkv/WeatherApplication">
-                      <img src="images/weather.png" alt="Image"
-                       class="img-fluid">
-                    </a>
-                    <div class="post-entry-1-contents">
-                      
-                      <h2><a href="https://github.com/harshkv/WeatherApplication">Weather Forecast Application</a></h2>
-                      <span class="meta d-inline-block mb-3">August 2019 
-                        <!-- <span class="mx-2">by</span> <a href="#">Admin</a> -->
-                      </span>
-                      <p>Development an Weather Forecast Application in Android using Java-8. The user can select any city in the list and view the current as well as the future forcast. All information is retrieved using RESTful API calls in an Async Task, ListView, Recycler View, CardViews. Images are loaded using Picasso.Performed JSON parsing on retrieved data.</p>
-                    </div>
-                  </div>
-                </div>
-  
-  
-<!-- 5 -->
-
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="post-entry-1 h-100">
-                <a href="https://github.com/harshkv/NewsApp">
-                  <img src="images/news.jpg" alt="Image"
-                   class="img-fluid" style="height: 350px;" >
-                </a>
-                <div class="post-entry-1-contents">
-                  
-                  <h2><a href="https://github.com/harshkv/NewsApp">News Application (Android)</a></h2>
-                  <span class="meta d-inline-block mb-3">August 2019 
-                    <!-- <span class="mx-2">by</span> <a href="#">Admin</a> -->
-                  </span>
-                  <p>The app will enable the user to select the news channels and will display the list of news for the selected news source. The users can select the news of interest and the article will be displayed in a new WebView. All information is retrieved using RESTful API calls, and Custom Adapter View, Recycler View, CardViews. Images are loaded using Picasso.
-                  This Application is built using Android Studio and Java.
-  
-                      </p>
-                </div>
-              </div>
-            </div>
-            
-  
-  <!-- 6 -->
-  
-  
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="post-entry-1 h-100">
-                  <a href="http://harshithakv.com/Plant-A-Tree-NodeJs-MongoDB/">
-                    <img src="images/bonsai.jpg" alt="Image"
-                     class="img-fluid">
-                  </a>
-                  <div class="post-entry-1-contents">
-                    
-                    <h2><a href="http://harshithakv.com/Plant-A-Tree-NodeJs-MongoDB/">Plant A Tree</a></h2>
-                    <span class="meta d-inline-block mb-3">May 2019 
-                      <!-- <span class="mx-2">by</span> <a href="#">Admin</a> -->
-                    </span>
-                    <p>Developed a fully dynamic content sharing web application, using Node.js, Express.js, JavaScript, and MongoDB. 'Plant a Tree' meets the MVC design pattern with EJS template pages for the presentation, routes for the controller and JavaScript data objects for the business logic. The Project also handles each user Session, Login, Logout, Authentication, handling POST/GET requests, Handling Input Validation and Object-Oriented Concepts. The logged-in users have the facility of adding, saving, editing, removing and rating bonsai plant details, with the logged activity saved in Mongoose when user logout.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-        </div>
       </div>
+
+
+
+
+      
+
 
 
      <!--================End Projects Area =================-->
 
 
 
-    <footer class="site-footer ">
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
             <div class ="col-lg-5">
@@ -510,26 +497,25 @@ Currently, I'm looking for a Mobile Application Developer (Android) role that wo
             </div>
             <div class="col-lg-5"></div>
               <div class="col-lg-2">
-                <h2 class="footer-heading mb-4">
+                <h5 class="footer-heading mb-4">
                 <div class="social_29128 white mb-5">
                   <a href="https://www.linkedin.com/in/hkeshava"><span class="icon-linkedin"></span></a>  
                   <a href="https://github.com/harshkv"><span class="icon-github"></span></a>  
-                  <a href="https://www.instagram.com/harshithakv/"><span class="icon-instagram"></span></a>  
-                 </div></h2>
+                 </div>
+                </h5>
               </div>
-              
-
-              
+                           
             </div>
           </div>
         </div>
-
       </div>
     </footer>
 
     </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="js/filter.js"></script> -->
+    <script src="js/filter1.js"></script>
     <script src="js/jquery-migrate-3.0.0.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -549,4 +535,3 @@ Currently, I'm looking for a Mobile Application Developer (Android) role that wo
   </body>
 
 </html>
-
